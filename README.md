@@ -16,8 +16,8 @@ The performance comparison of the sorting algorithms will be conducted under var
 
 - **Size of Array**: The algorithms will be tested on arrays of size 100,000; 500,000; 1,000,000; 5,000,000; and 10,000,000.
 - **Ranges**:
-  1. **Input Type 1**: Random integers within the range of 0 to n.
-  2. **Input Type 2**: Random integers within a fixed range (0 to 1000), irrespective of n.
+  1. Random integers within the range of 0 to n.
+  2. Random integers within a fixed range (0 to 1000), irrespective of n.
   3. Random integers within an extended range (0 to n^3), to test performance under large numeric values.
   4. Random integers within a logarithmic range (0 to log(n)), to assess behavior with smaller, more constrained datasets.
   5. Random integers that are multiples of 1000 within the range of 0 to n, to test sorting with large, evenly spaced numbers.
