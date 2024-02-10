@@ -9,7 +9,6 @@ Original file is located at
 
 import timeit
 import random
-import matplotlib.pyplot as plt
 import numpy as np
 
 MIN_MERGE = 32
@@ -235,7 +234,7 @@ def generate_input_data(n, input_type):
         return arr
 
 
-def plot_bar_graph(input_type):
+def run_algorithms(input_type):
     sizes = [100000, 500000, 1000000, 5000000, 10000000]
     algorithms = [quick_sort, merge_sort, radix_sort,bucket_sort, timsort, heap_sort]
 
@@ -255,16 +254,7 @@ def plot_bar_graph(input_type):
             print(execution_time)
             run_times.append(execution_time)
 
-        plt.bar(index + i * bar_width, run_times, bar_width, label=algorithm.__name__)
-
-    plt.xlabel('Input Size')
-    plt.ylabel('Average Execution Time (s)')
-    plt.title(f'Performance Comparison - Input Type {input_type}')
-    plt.xticks(index + bar_width * (len(algorithms) / 2), sizes)
-    plt.legend()
-    plt.show()
-
 
 # Test for different input types
 for input_type in range(1, 7):
-    plot_bar_graph(input_type)
+    run_algorithms(input_type)
