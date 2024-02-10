@@ -56,7 +56,6 @@ def merge_sort(arr):
             k += 1
 
 def radix_sort(arr):
-    # Implement Radix Sort
     max_num = max(arr)
     exp = 1
     while max_num // exp > 0:
