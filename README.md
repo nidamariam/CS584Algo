@@ -1,4 +1,4 @@
-# CS584Algo# Comparative Analysis of Sorting Algorithms
+# Comparative Analysis of Sorting Algorithms
 
 This project aims to explore and compare the performance of various sorting algorithms. Sorting is a fundamental operation in computer science, not only for data organization but also as a critical component in numerous algorithmic strategies. Understanding the efficiency and behavior of different sorting techniques based on the nature of input data is essential for optimizing computational tasks.
 
