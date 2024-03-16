@@ -12,6 +12,9 @@ Treaps and Skip Lists follow a probabilistic approach, meaning they use randomne
 
 The objective of this paper is to compare the performance of probabilistic structures—Treaps and Skip Lists—with deterministic self-balancing trees—AVL Trees and Red-Black Trees—when performing insertion, deletion, and searching operations. In addition to this, we will also examine how well balanced Treaps and Skip Lists are when compared to deterministic trees. This paper aims to provide a clear comparison of these data structures. 
 
+## Code Link
+You can find the implementation code in the file algo_term_end_project_code.py[https://github.com/nidamariam/CS584Algo/blob/main/algo_term_end_project_code.py]. This file contains the Python code for performing the comparative analysis of probabilistic and deterministic self-balancing trees.
+
 ---
 
 ## Usage
