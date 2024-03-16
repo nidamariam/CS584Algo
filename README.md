@@ -1,30 +1,16 @@
 # Performance Comparison of Probabilistic and Deterministic Data Structures
 
-In the field of computer science, the choice of data structures plays a pivotal role in organizing and managing data efficiently. Imagine the difference between searching for a book in a library where books are randomly scattered versus one where they are meticulously organized—the impact on retrieval time is profound. 
+In the field of computer science, specifically with respect to organizing and managing data, the type of structures we choose to use can have a significant impact on the speed and efficiency of our operations. For example, finding a book in a library where the books are randomly placed versus a library where books are carefully organized—the difference in the time it takes you to find what you're looking for is huge. 
 
-This project delves into the realm of data structures, focusing on Treaps, Skip Lists, AVL Trees, and Red-Black Trees. These structures are designed to streamline operations such as insertion, deletion, and search within datasets. Each structure adheres to specific rules governing its organization, ensuring data remains orderly amidst changes.
+Treaps, Skip Lists, AVL Trees, and Red-Black Trees are data structures that organize data in a form that makes it easier to perform operations such as insertion, deletion, or searching for data. The organization of data in these structures is governed by rules specific to each of them. These rules ensure that the data remains organized even when new data is added or old data is removed, thereby maintaining efficient operation.
 
 ## Probabilistic vs. Deterministic Approaches
 
-Treaps and Skip Lists adopt a probabilistic approach, leveraging randomness to maintain balance and expedite operations. Conversely, deterministic self-balancing trees like AVL Trees and Red-Black Trees strictly adhere to predefined rules to sustain balance and operational efficiency.
+Treaps and Skip Lists follow a probabilistic approach, meaning they use randomness in a way that balance is maintained and operations are performed quickly. Conversely, deterministic self-balancing trees such as AVL Trees and Red-Black Trees have a strict set of rules to ensure that they remain balanced and the operations on them are efficient.
 
 ## Project Objectives
 
-This research endeavors to compare the performance of probabilistic structures (Treaps and Skip Lists) against deterministic self-balancing trees (AVL Trees and Red-Black Trees) concerning insertion, deletion, and search operations. Additionally, the study aims to assess the balance maintained by Treaps and Skip Lists in comparison to their deterministic counterparts. 
-
-Through comprehensive analysis and experimentation, this paper aims to furnish a lucid comparison of these diverse data structures. 
-
----
-
-## Code Implementation
-
-The implementation of each data structure and the performance evaluation scripts can be found in the following directories:
-
-- `treaps/`: Implementation of Treaps data structure
-- `skip_lists/`: Implementation of Skip Lists data structure
-- `avl_trees/`: Implementation of AVL Trees data structure
-- `red_black_trees/`: Implementation of Red-Black Trees data structure
-- `performance_evaluation/`: Scripts for evaluating the performance of each data structure
+The objective of this paper is to compare the performance of probabilistic structures—Treaps and Skip Lists—with deterministic self-balancing trees—AVL Trees and Red-Black Trees—when performing insertion, deletion, and searching operations. In addition to this, we will also examine how well balanced Treaps and Skip Lists are when compared to deterministic trees. This paper aims to provide a clear comparison of these data structures. 
 
 ---
 
