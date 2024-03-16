@@ -1,4 +1,4 @@
-# Performance Comparison of Probabilistic and Deterministic Data Structures
+# Comparative Analysis of Probabilistic and Deterministic Self-Balancing Trees
 
 In the field of computer science, specifically with respect to organizing and managing data, the type of structures we choose to use can have a significant impact on the speed and efficiency of our operations. For example, finding a book in a library where the books are randomly placed versus a library where books are carefully organized—the difference in the time it takes you to find what you're looking for is huge. 
 
