@@ -1,39 +1,36 @@
-# Comparative Analysis of Sorting Algorithms
+# Performance Comparison of Probabilistic and Deterministic Data Structures
 
-This project aims to explore and compare the performance of various sorting algorithms. Sorting is a fundamental operation in computer science, not only for data organization but also as a critical component in numerous algorithmic strategies. Understanding the efficiency and behavior of different sorting techniques based on the nature of input data is essential for optimizing computational tasks.
+In the field of computer science, the choice of data structures plays a pivotal role in organizing and managing data efficiently. Imagine the difference between searching for a book in a library where books are randomly scattered versus one where they are meticulously organized—the impact on retrieval time is profound. 
 
-## Objectives
+This project delves into the realm of data structures, focusing on Treaps, Skip Lists, AVL Trees, and Red-Black Trees. These structures are designed to streamline operations such as insertion, deletion, and search within datasets. Each structure adheres to specific rules governing its organization, ensuring data remains orderly amidst changes.
 
-The primary goal of this study is to conduct a comparative analysis of sorting algorithms, focusing on their time efficiency across different scenarios, including:
-- The size of the input array
-- The range and nature of array elements
+## Probabilistic vs. Deterministic Approaches
 
-## Methodology
+Treaps and Skip Lists adopt a probabilistic approach, leveraging randomness to maintain balance and expedite operations. Conversely, deterministic self-balancing trees like AVL Trees and Red-Black Trees strictly adhere to predefined rules to sustain balance and operational efficiency.
 
-### Experimental Design
+## Project Objectives
 
-The performance comparison of the sorting algorithms will be conducted under various conditions, specifically:
+This research endeavors to compare the performance of probabilistic structures (Treaps and Skip Lists) against deterministic self-balancing trees (AVL Trees and Red-Black Trees) concerning insertion, deletion, and search operations. Additionally, the study aims to assess the balance maintained by Treaps and Skip Lists in comparison to their deterministic counterparts. 
 
-- **Size of Array**: The algorithms will be tested on arrays of size 100,000; 500,000; 1,000,000; 5,000,000; and 10,000,000.
-- **Ranges**:
-  1. Random integers within the range of 0 to n.
-  2. Random integers within a fixed range (0 to 1000), irrespective of n.
-  3. Random integers within an extended range (0 to n^3), to test performance under large numeric values.
-  4. Random integers within a logarithmic range (0 to log(n)), to assess behavior with smaller, more constrained datasets.
-  5. Random integers that are multiples of 1000 within the range of 0 to n, to test sorting with large, evenly spaced numbers.
-  6. A nearly sorted array where a subset of elements (log2(n)/2) are randomly swapped, to evaluate efficiency on almost sorted data.
+Through comprehensive analysis and experimentation, this paper aims to furnish a lucid comparison of these diverse data structures. 
 
-## Getting Started
+---
 
-To replicate this study or to understand the performance of sorting algorithms under the specified conditions, follow the instructions below:
+## Code Implementation
 
-### Prerequisites
+The implementation of each data structure and the performance evaluation scripts can be found in the following directories:
 
-Ensure you have a programming environment capable of running code written in the language of the implemented algorithms (i.e., Python).
+- `treaps/`: Implementation of Treaps data structure
+- `skip_lists/`: Implementation of Skip Lists data structure
+- `avl_trees/`: Implementation of AVL Trees data structure
+- `red_black_trees/`: Implementation of Red-Black Trees data structure
+- `performance_evaluation/`: Scripts for evaluating the performance of each data structure
 
-### Installation
+---
 
-Clone the repository to your local machine:
+## Usage
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/nidamariam/CS584Algo.git
